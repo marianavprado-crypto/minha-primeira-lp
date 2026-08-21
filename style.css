@@ -6,11 +6,31 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    max-height: 100vh;
-    height: 100vh ;
+    flex-direction: column;
+    gap: irem;
 }
-img{
-    width: 55vw;
-    height: 30vw;
+    
+
+    #banner-principal{
+        margin-top: 1rem;
+        width: 90vw;
+        height: 80vh;
+        border: 1rem;
+    }
+    .divisinha{
+        display: flex;
+        width: 100%;
+        background-color: rgb(184, 61, 61);
+        justify-content: center;
+    }
+
+.img-divisinha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(100, 100, 186);
+}
+.div-divisinha p{
+    width: 50%;
 }
