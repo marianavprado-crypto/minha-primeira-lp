@@ -1,36 +1,28 @@
-* {
+ * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
+ }
+ body{
+    background-color: rgb(148, 148, 233);
+ }
+ header{
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: irem;
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(63, 61, 118);
+    align-items: center;
+ }
+h1{
+    width: 50px;
+    background-color: azure;
+align-content: center;
+justify-content: horizontal;
 }
-    
-
-    #banner-principal{
-        margin-top: 1rem;
-        width: 90vw;
-        height: 80vh;
-        border: 1rem;
-    }
-    .divisinha{
-        display: flex;
-        width: 100%;
-        background-color: rgb(184, 61, 61);
-        justify-content: center;
-    }
-
-.img-divisinha {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(100, 100, 186);
-}
-.div-divisinha p{
-    width: 50%;
+p{
+    width:12rem ;
+    height: 35px;
+    background-color: rgb(48, 116, 189);
+    align-content: left;
+    justify-content:horizontal ;
 }
