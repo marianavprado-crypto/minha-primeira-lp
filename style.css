@@ -26,3 +26,7 @@ p{
     align-content: left;
     justify-content:horizontal ;
 }
+#foto {
+   width: 100px;
+   height: 100px;
+}
