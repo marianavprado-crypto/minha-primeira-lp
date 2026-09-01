@@ -1,32 +1,68 @@
- * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
- }
- body{
-    background-color: rgb(148, 148, 233);
- }
- header{
-    display: flex;
-    height: 100px;
-    width: 100vw;
-    background-color: rgb(63, 61, 118);
-    align-items: center;
- }
-h1{
-    width: 50px;
-    background-color: azure;
-align-content: center;
-justify-content: horizontal;
-}
-p{
-    width:12rem ;
-    height: 35px;
-    background-color: rgb(48, 116, 189);
-    align-content: left;
-    justify-content:horizontal ;
-}
-#foto {
-   width: 100px;
-   height: 100px;
-}
+body {
+   margin: 0;
+  padding: 0; 
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  } 
+  
+  header {
+  background-color: rgb(63, 61, 118);
+  height: 100px; 
+   display: flex;
+   align-items: center; 
+   justify-content: space-between; 
+  padding: 0 20px;
+   } 
+  
+   header img {
+   height: 80px;
+  } 
+  
+   nav ul {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  } 
+  
+  nav li { 
+   color: white; 
+  cursor: pointer;
+   padding: 8px 12px; 
+   background-color: rgb(48, 116, 189);
+   }
+  
+    button { 
+   padding: 8px 16px; 
+   margin-left: 8px; 
+   cursor: pointer; 
+   border: none; 
+   background-color: #2980b9; 
+  color: white;
+   border-radius:2px;
+  }
+  
+  
+  #logo {
+     width: 100px;
+     height: 100px;
+  }
+  footer {
+  background-color: #333; 
+  color: white;
+  padding: 20px;
+  margin-top: 30px; 
+  }
+   footer div { 
+  margin-bottom: 15px; 
+  } 
+  footer a { 
+  color: #3498db; 
+  text-decoration: none; 
+  display: block; 
+  margin: 4px 0;
+  }
+   footer p {
+   margin: 5px 0; 
+  }
