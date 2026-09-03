@@ -1,32 +1,94 @@
- * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
- }
- body{
-    background-color: rgb(148, 148, 233);
- }
- header{
-    display: flex;
-    height: 100px;
-    width: 100vw;
-    background-color: rgb(63, 61, 118);
-    align-items: center;
- }
-h1{
-    width: 50px;
-    background-color: azure;
-align-content: center;
-justify-content: horizontal;
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #f0f0f0;
+   font-family: sans-serif;
 }
-p{
-    width:12rem ;
-    height: 35px;
-    background-color: rgb(48, 116, 189);
-    align-content: left;
-    justify-content:horizontal ;
+
+header {
+   background-color: rgb(26, 12, 66);
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
 }
-#foto {
+
+header img {
+   height: 80px;
+}
+
+nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 20px;
+}
+
+nav li {
+   color: rgb(247, 251, 255);
+   cursor: pointer;
+   padding: 8px 12px;
+   
+}
+
+button {
+   padding: 6px;
+   display: flex;
+   margin-left: 8px;
+   cursor: pointer;
+   border: none;
+   background-color: #000101;
+   color: white;
+   border-radius: 2px;
+}
+
+
+#logo {
    width: 100px;
    height: 100px;
+}
+main {
+}
+
+#section1 {
+background-color: green;
+padding: 2rem;
+}
+
+#divsec1{
+   background-color: pink;
+   width: 50%;
+}
+
+#divbuttons {
+   display: flex;
+}
+
+footer {
+   background-color: #333;
+   color: white;
+   padding: 20px;
+   margin-top: 30px;
+}
+
+#div-links a{
+color: white;
+}
+
+footer div {
+
+   margin-bottom: 10px;
+}
+
+footer a {
+   color: #0b1547;
+   text-decoration: none;
+   display: block;
+   margin: 4px 0;
+}
+
+footer p {
+   margin: 5px 0;
 }
